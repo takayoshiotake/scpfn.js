@@ -1,0 +1,27 @@
+{
+  "name": "scpfn",
+  "version": "1.0.0",
+  "description": "Scope functions like Kotlin",
+  "keywords": [
+    "function",
+    "functional",
+    "scope",
+    "scope function",
+    "scope functional"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "dist": "mkdir -p dist && minify lib/scpfn.js --sourceType module --out-file dist/scpfn.min.js"
+  },
+  "repository": "takayoshiotake/scpfn.js",
+  "author": "OTAKE Takayoshi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-minify": "^0.5.0",
+    "babel-preset-minify": "^0.5.0"
+  }
+}
