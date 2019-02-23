@@ -1,6 +1,6 @@
 {
   "name": "scpfn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scope functions like Kotlin",
   "keywords": [
     "function",
