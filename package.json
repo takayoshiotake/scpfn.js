@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "dist": "mkdir -p dist && minify lib/scpfn.js --sourceType module --out-file dist/scpfn.min.js",
+    "dist": "mkdir -p dist && minify src/scpfn.js --sourceType module --out-file dist/scpfn.min.js",
     "test": "node test/index.js"
   },
   "repository": "takayoshiotake/scpfn.js",
